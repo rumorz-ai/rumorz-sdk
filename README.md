@@ -33,12 +33,12 @@ pip install rumorz
 ```
 
 # 🚀 Examples
+
 ```python
 from rumorz import Rumorz
 
 api_key = "YOUR_API_KEY"
 rumorz = Rumorz(api_key)
-
 
 # A real-time market update using the most important and recent information
 market_update = rumorz.agent.get_market_update()
@@ -51,10 +51,10 @@ summary = rumorz.agent.summarize_entity(
 )
 
 # Does the graph have information about Elon Musk?
-entities = rumorz.graph.entities.search(
-    search="Elon Musk",
+entities = rumorz.graph.entities.input(
+    input="Elon Musk",
     entity_type="person",
-    match_type="exact"
+    search_type="exact"
 )
 
 # Get posts about the SEC
