@@ -5,13 +5,12 @@
 
 # 🚀 Rumorz Python SDK
 
-Use the Rumorz SDK to integrate your AI agents and applications with Rumorz. We provide a simple 
-and easy interface to query for news, events and analytics on any entity in the crypto ecosystem,
+Integrate your AI agents and applications with Rumorz. We provide a simple and easy interface to query for news, events and analytics on any entity in the crypto ecosystem,
 and offer Agentic workflows to save you hours of research and analysis.
 
 ## 🚀 Examples of integrations
 
-- SDK functions as AI Functions/Tools
+- Functions/Tools for AI Agents
 - RAG based applications
 - Trading strategies
 - Automated reports (emails, PDFs...)
