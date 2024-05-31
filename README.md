@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+    <img src="logo.svg" alt="Rumorz Logo" />
+</div>
+
 # Rumorz Python SDK
 
 Use the Rumorz SDK to interact with the graph and agent through the Rumorz API.
@@ -7,7 +11,6 @@ Use the Rumorz SDK to interact with the graph and agent through the Rumorz API.
 ```bash
 pip install rumorz
 ```
-
 
 ```python
 # Example usage
