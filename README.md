@@ -1,5 +1,6 @@
 <div style="text-align: center;">
     <img src="logo.svg" alt="Rumorz Logo" />
+    <img src="graph.png" alt="Rumorz Logo" />
 </div>
 
 # Rumorz Python SDK
@@ -18,26 +19,33 @@ from rumorz import Rumorz
 api_key = "YOUR_API_KEY"
 rumorz = Rumorz(api_key)
 
-# Example calls
+# Get a summary of news about Bitcoin over the last 7 days
 summary = rumorz.agent.summarize_entity(
     name="Bitcoin",
-    entity_type="financial_asset"
+    entity_type="financial_asset",
+    lookback_days=7
 )
 
+# Does the graph have information about Elon Musk?
 entities = rumorz.graph.entities.search(
-search="Solana", 
-entity_type="financial_asset"
-)
-
-market_update = rumorz.agent.market_update()
-entity_posts = rumorz.graph.entities.posts(
-    name="SEC", 
-    entity_type="organization"
-)
-
-rumorz.graph.entities.time_series(
-    name="Elon Musk", 
+    search="Elon Musk",
     entity_type="person"
+)
+
+# A real-time market update using the most important and recent information
+market_update = rumorz.agent.get_market_update()
+
+# Get the most recent posts about the SEC
+entity_posts = rumorz.graph.entities.posts(
+    name="SEC",
+    entity_type="organization",
+    start_date="2021-01-01",
+)
+
+# Get time series of social volume, sentiment, fear, uncertainty and other metrics for Dogecoin
+rumorz.graph.entities.time_series(
+    name="Dogecoin",
+    entity_type="financial_asset"
 )
 
 ```

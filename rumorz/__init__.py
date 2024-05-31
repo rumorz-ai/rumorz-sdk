@@ -53,18 +53,22 @@ class Rumorz:
                 }
                 return self.api.get('graph/entities/search', data)
 
-            def posts(self, name, entity_type, lookback_days=100):
+            def posts(self, name, entity_type, start_date, end_date, lookback_days=100):
                 data = {
                     "name": name,
                     "entity_type": entity_type,
+                    "start_date": start_date,
+                    "end_date": end_date,
                     "lookback_days": lookback_days
                 }
                 return self.api.get('graph/entities/posts', data)
 
-            def time_series(self, name, entity_type, lookback_days=100):
+            def time_series(self, name, entity_type, start_date, end_date, lookback_days=100):
                 data = {
                     "name": name,
                     "entity_type": entity_type,
+                    "start_date": start_date,
+                    "end_date": end_date,
                     "lookback_days": lookback_days
                 }
                 return self.api.get('graph/entities/time-series', data)
@@ -73,13 +77,15 @@ class Rumorz:
         def __init__(self, api):
             self.api = api
 
-        def summarize_entity(self, name, entity_type, lookback_days=100):
+        def summarize_entity(self, name, entity_type, start_date, end_date, lookback_days=100):
             data = {
                 "name": name,
                 "entity_type": entity_type,
+                "start_date": start_date,
+                "end_date": end_date,
                 "lookback_days": lookback_days
             }
             return self.api.post('agent/summarize-entity', data)
 
-        def market_update(self):
+        def get_market_update(self):
             return self.api.post('agent/market-update', {})
