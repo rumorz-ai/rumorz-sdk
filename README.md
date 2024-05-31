@@ -13,9 +13,7 @@ pip install rumorz
 ```
 
 ```python
-# Example usage
 from rumorz import Rumorz
-
 
 api_key = "YOUR_API_KEY"
 rumorz = Rumorz(api_key)
