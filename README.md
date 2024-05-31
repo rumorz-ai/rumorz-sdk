@@ -19,12 +19,12 @@ and offer Agentic workflows to save you hours of research and analysis.
 - Internal bots for crypto communities
 - Monetizing social bots on Telegram, Discord, Twitter...
 
-## 🚀 Features
-- **Market Updates**: Get a real-time cryptocurrency market update, using the most important and recent information.
+## 🚀 AI workflows and data
+- **Market updates**: Get a real-time cryptocurrency market update, using the most relevant and recent information
 - **Summaries**: Get a summary of about any entity over any specific timeframe
-- **Social analytics**: Get time series of social volume, sentiment, fear, uncertainty and other metrics for any entity.
-- **Entity Search**: Search for entities in the Rumorz knowledge graph.
-- **News posts**: Get the most recent posts for any entity.
+- **Social analytics**: Social volume, sentiment, fear, uncertainty and other metrics for any token, person or company in crypto
+- **Search**: find tokens, companies and people in the graph
+- **News posts**: get real-time and historical news for any entity
 
 ## 🚀 Installation
 
