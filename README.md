@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div style="text-align: center; flex: 1;">
     <img src="logo.svg" alt="Rumorz Logo" />
 </div>
 
