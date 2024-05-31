@@ -9,6 +9,14 @@ Use the Rumorz SDK to integrate your AI agents and applications with Rumorz. We 
 and easy interface to query for news, events and analytics on any entity in the crypto ecosystem,
 and offer Agentic workflows to save you hours of research and analysis.
 
+## 🚀 Examples of integrations
+
+- AI agents and Chatbots
+- Automated reports (emails, PDFs...)
+- Analytics dashboards
+- Web applications
+- Trading bots
+
 ## 🚀 Features
 - **Market Updates**: Get a real-time cryptocurrency market update, using the most important and recent information.
 - **Summaries**: Get a summary of about any entity over any specific timeframe
