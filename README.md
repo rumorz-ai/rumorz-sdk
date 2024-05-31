@@ -1,18 +1,18 @@
 <div style="text-align: center;">
     <img src="logo.svg" alt="Rumorz Logo" />
-    <img src="graph.png" alt="Rumorz Logo" />
 </div>
 
-# Rumorz Python SDK
+# 🚀 Rumorz Python SDK
 
 Use the Rumorz SDK to interact with the graph and agent through the Rumorz API.
 
-## Installation
+## 🚀 Installation
 
 ```bash
 pip install rumorz
 ```
 
+# 🚀 Examples
 ```python
 from rumorz import Rumorz
 
