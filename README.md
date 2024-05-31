@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="logo.svg" alt="Rumorz Logo" />
+    <img src="logo.svg" alt="Rumorz Logo" width="150"/>
 </p>
 
 # 🚀 Rumorz Python SDK
