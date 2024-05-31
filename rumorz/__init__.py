@@ -1,7 +1,7 @@
 import requests
 
 
-class RumorzAPI:
+class Rumorz:
     def __init__(self, api_key):
         self.base_url = 'http://0.0.0.0'
         self.headers = {
