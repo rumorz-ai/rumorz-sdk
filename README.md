@@ -11,11 +11,14 @@ and offer Agentic workflows to save you hours of research and analysis.
 
 ## 🚀 Examples of integrations
 
-- AI agents and Chatbots
+- SDK functions as AI Functions/Tools
+- RAG based applications
+- Trading strategies
 - Automated reports (emails, PDFs...)
 - Analytics dashboards
 - Web applications
-- Trading bots
+- Internal bots for crypto communities
+- Monetizing social bots on Telegram, Discord, Twitter...
 
 ## 🚀 Features
 - **Market Updates**: Get a real-time cryptocurrency market update, using the most important and recent information.
