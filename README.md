@@ -1,6 +1,7 @@
-<div style="text-align: center; flex: 1;">
+
+<p align="center">
     <img src="logo.svg" alt="Rumorz Logo" />
-</div>
+</p>
 
 # 🚀 Rumorz Python SDK
 
