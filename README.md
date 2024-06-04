@@ -72,3 +72,9 @@ rumorz.graph.entities.time_series(
 )
 
 ```
+
+
+## TODOS
+- Add notebook example with outputs
+- Add RumorzSDK Agent to automate workflow writing
+
