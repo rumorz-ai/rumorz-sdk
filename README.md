@@ -8,23 +8,25 @@
 Integrate your AI agents and applications with Rumorz. We provide a simple and easy interface to query for news, events and analytics on any entity in the crypto ecosystem,
 and offer Agentic workflows to save you hours of research and analysis.
 
-## 🚀 Examples of integrations
+## 🔒 API Access
+Please email othmane@rumorz.io to get an API key
 
-- Functions/Tools for AI Agents
-- RAG based applications
+## 🚀 Use cases
+
+- Use a Tools for AI Agents and RAG based applications
+- Market monitoring
 - Trading strategies
-- Automated reports (emails, PDFs...)
-- Analytics dashboards
-- Web applications
-- Internal bots for crypto communities
 - Monetizing social bots on Telegram, Discord, Twitter...
+- Automated workflows: emails, PDFs, reports etc...
+- News and sentiment data for web applications
+- Internal bots for crypto communities
 
-## 🚀 AI workflows and data
+## 🚀 Features
 - **Market updates**: Get a real-time cryptocurrency market update, using the most relevant and recent information
 - **Summaries**: Get a summary of about any entity over any specific timeframe
-- **Social analytics**: Social volume, sentiment, fear, uncertainty and other metrics for any token, person or company in crypto
+- **Analytics**: Social volume, sentiment, fear, uncertainty and other metrics for any token, person or company in crypto
 - **Search**: find tokens, companies and people in the graph
-- **News posts**: get real-time and historical news for any entity
+- **News data**: get real-time and historical news for any entity
 
 ## 🚀 Installation
 
@@ -41,17 +43,21 @@ api_key = "YOUR_API_KEY"
 rumorz = Rumorz(api_key)
 
 # A real-time market update using the most important and recent information
-market_update = rumorz.agent.get_market_update()
+market_update = rumorz.agent.get_market_update(
+    asset_class="crypto",
+)
 
 # Get a summary of news about Bitcoin over the last 7 days
 summary = rumorz.agent.summarize_entity(
     name="Bitcoin",
     entity_type="financial_asset",
-    lookback_days=7
+    lookback_days=7,
+    #start_date="2024-03-01", 
+    #end_date="2024-03-10"
 )
 
 # Does the graph have information about Elon Musk?
-entities = rumorz.graph.entities.input(
+entities = rumorz.graph.search(
     input="Elon Musk",
     entity_type="person",
     search_type="exact"
